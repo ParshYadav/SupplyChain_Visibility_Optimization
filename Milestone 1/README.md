@@ -7,7 +7,7 @@ Transforming a raw, flat supply chain dataset into an optimized relational Star 
 https://www.kaggle.com/datasets/shashwatwork/dataco-smart-supply-chain-for-big-data-analysis
 
 ## Data Cleaning and Transformation Steps
-* Duplicated primary datasets into dedicated dimension tables (`Dim_Customer`, `Dim_Product`, `Dim_Category`, `Dim_Shipping`, `Dim_location`, `Dim_Department`).
+* Duplicated primary datasets into dedicated dimension tables (`Dim_Customer`, `Dim_Product`, `Dim_Category`, `Dim_Shipping`, `Dim_location`, `Dim_Department`, `Dim_Date`).
 * Removed duplicates across key categorical and structural columns.
 * Constructed custom dynamic date calendars utilizing DAX functions.
 * Established indexing surrogate key logic for tracking changes without duplicates.
